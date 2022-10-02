@@ -1,6 +1,9 @@
-package BlackJack_1;
+package Blackjack_2;
 
-public class BlackjackCard extends Card{
+
+import Blackjack_2.Card;
+
+public class BlackjackCard extends Card {
     public BlackjackCard(int suitNumber, int rankNumber) {
         super(suitNumber, rankNumber);
     }
